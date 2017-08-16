@@ -27,8 +27,7 @@ class DefaultLayout extends React.Component {
 DefaultLayout.propTypes = {
   hideHeader: PropTypes.bool,
   description: PropTypes.string,
-  children: PropTypes.node.isRequired,
-  initialData: PropTypes.string.isRequired
+  children: PropTypes.node.isRequired
 };
 
 module.exports = DefaultLayout;
